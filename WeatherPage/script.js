@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const temperatureDisplay = document.getElementById("temperature");
   const descriptionDisplay = document.getElementById("description");
   const errorMessage = document.getElementById("error-message");
-  const API_Key = "c2f3628f4ff34c8a6e9e902da1a47592";
+  const API_Key = "Your API_Key";
 
   getWeatherBtn.addEventListener("click", async () => {
     const city = cityInput.value.trim();
