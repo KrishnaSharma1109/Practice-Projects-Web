@@ -1,0 +1,138 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #baa7ff; /* light pastel blue */
+  color: #333;
+  padding: 20px;
+}
+
+/* Container */
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+/* Headings */
+h1 {
+  font-size: 2rem;
+  color: #2b6cb0; /* soft blue */
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #4a5568;
+  margin-bottom: 15px;
+}
+
+/* Button Styles */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #38b2ac; /* mint green */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #319795; /* darker mint */
+}
+
+button.hidden {
+  display: none;
+}
+
+.question-counter {
+  text-align: right;
+  font-size: 16px;
+  font-weight: 500;
+  color: #718096; /* soft gray */
+  margin-bottom: 10px;
+}
+
+
+
+/* Choices */
+#choices-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+#choices-list li {
+  background-color: #edf2f7; /* soft gray */
+  padding: 12px 16px;
+  border: 2px solid #cbd5e0;
+  border-radius: 10px;
+  margin: 8px 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#choices-list li:hover {
+  background-color: #e2e8f0; /* slightly darker gray */
+}
+
+/* Result styles */
+#score {
+  font-size: 1.5rem;
+  color: #2f855a; /* calm green */
+  margin-top: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .container {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  button {
+    width: 100%;
+  }
+}
+
+.result-details {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.result-item {
+  background-color: #f7fafc;
+  border: 1px solid #cbd5e0;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 15px;
+}
+.setup {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.setup input {
+  padding: 6px;
+  font-size: 16px;
+  width: 60px;
+  margin-right: 10px;
+}

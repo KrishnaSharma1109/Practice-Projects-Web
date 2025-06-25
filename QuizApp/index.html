@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fun Quiz App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+
+    <!-- Setup Section (Question Count + Start Button) -->
+    <div class="setup">
+      <h1>🎉 Fun Quiz for Friends 🎉</h1>
+      <label for="qNo">How many questions?</label>
+      <input type="number" id="qNo" min="1" max="50" placeholder="e.g. 5" />
+      <button id="start-btn">Start Quiz</button>
+    </div>
+
+    <!-- Quiz Question Area -->
+    <div id="question-container" class="hidden">
+      <div id="question-counter" style="text-align: right; margin-bottom: 10px;"></div>
+      <h2 id="question-text">Question Text</h2>
+      <ul id="choices-list">
+        <!-- Choices will be inserted here -->
+      </ul>
+      <button id="next-btn" class="hidden">Next Question</button>
+    </div>
+
+    <!-- Result Area -->
+    <div id="result-container" class="hidden">
+      <h2>Your Score:</h2>
+      <p id="score"></p>
+      <!-- Detailed results will be inserted here -->
+      <button id="restart-btn">Restart Quiz</button>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
