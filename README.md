@@ -1,8 +1,6 @@
-# Practice-Projects-Web
-A collection of my personal practice projects, mini components, and experiments related to web development. This repo includes everything from small HTML/CSS/JavaScript snippets to React components and API-based projects—built to sharpen my skills and explore new web technologies. 
----
-
 # Practice-Projects-Web 🌐
+
+A collection of my personal practice projects, mini components, and experiments related to web development. This repo includes everything from small HTML/CSS/JavaScript snippets to React components and API-based projects — built to sharpen my skills and explore new web technologies.
 
 ---
 
@@ -50,6 +48,31 @@ A modern, animated user authentication form that:
 
 **Tech Used:**  
 `HTML`, `CSS`, `JavaScript`, `Font Awesome`
+
+---
+
+### 🔹 5. Expense Tracker
+A simple app to track your daily expenses:
+- Add expenses with name and amount
+- View a list of all expenses
+- Automatically calculate and display the total
+- Persistent using `localStorage`
+
+**Tech Used:**  
+`HTML`, `CSS`, `JavaScript`
+
+---
+
+### 🔹 6. Quiz App
+An engaging and fun quiz app that:
+- Lets the user choose number of questions
+- Fetches trivia questions from a public API (OpenTDB)
+- Falls back to local fun questions if API fails
+- Shows correct/wrong answers in the result section
+- Includes question counter, score tracking, and restart option
+
+**Tech Used:**  
+`HTML`, `CSS`, `JavaScript`, `OpenTDB API`, `localStorage (optional)`
 
 ---
 
